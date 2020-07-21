@@ -1,0 +1,35 @@
+.tran-fast {
+   transition: 0.2s;
+}
+
+.tran-mid {
+   transition: 0.4s;
+}
+
+.tran-slow {
+   transition: 0.7s;
+}
+
+@keyframes jump-letter {
+   0% {
+     color: #ffcd38;
+   }
+ 
+   10% {
+     transform: scale(1.2, 0.8);
+     color: #ffcd38;
+   }
+ 
+   50% {
+     transform: translateY(-25px) scale(1, 1);
+     color: #ffcd38;
+   }
+ 
+   80% {
+     transform: scale(1.3, 0.7);
+   }
+ 
+   100% {
+     transform: scale(1, 1);
+   }
+ }

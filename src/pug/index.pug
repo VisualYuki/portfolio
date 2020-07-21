@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+html(lang="en")
+   head
+      meta(charset="UTF-8")
+      meta(name="viewport", content="width=device-width, initial-scale=1.0")
+      link(rel="stylesheet", href="../css/main.min.css")
+
+      meta(name="msapplication-TileColor" content="#da532c")
+      meta(name="theme-color" content="#ffffff")
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+   body
+      intro.intro.antro
+         picture.intro__picture-back
+            source(srcset="/img/intro__background.webp" type="image/webp")
+            img(src="/img/min-img/intro__background.jpg" alt="")
+         .container
+            .intro__inner
+               .intro__text-wrapper
+                  p.intro__hello-text  Привет, меня зовут Денис и я
+                  .intro__letter-wrapper 
+                     ul.intro__first-letter-wrapper
+                        each letter in ['F','R','O','N','T','N','D','/']
+                           li.intro__letter-inner
+                              .intro__letter-text=letter
+                     ul.intro__second-letter-wrapper
+                        each letter in ['J','A','V','A','S','C','R','I','P']
+                           li.intro__letter-inner
+                              .intro__letter-text=letter
+
+                  p.intro__about-text cоздание современных и адаптивных веб приложений.
+
+                  //-'Р','А','З','Р','А','Б','О','Т','Ч','И','К']
