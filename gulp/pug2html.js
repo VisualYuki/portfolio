@@ -7,7 +7,7 @@ const newer = require("gulp-newer");
 const pugLintStylish = require("puglint-stylish");
 
 module.exports = function pug2html() {
-   let src = "src/pug/pages/**/*.pug";
+   let src = "src/pug/**/*.pug";
    let dist = "dist/pages";
 
    return gulp
