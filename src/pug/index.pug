@@ -132,24 +132,27 @@ html(lang="en")
          .container
             h2.section-title Опыт работы
             ul.experience__items
-               -for(let i = 0; i < 5; i++)
+               -for(let i = 0; i < 1; i++)
                   li.experience__item
-                     .experience__item-info
-                        p.experience__item-time 2015 – Present
-                        p.experience__item-company UNICORN INCUBATOR INC.
-                        p.experience__item-position Senior Interface Designer
+                     a.experience__item-picture-link(href="https://rootmedia.ru" target="blame")
+                        picture.experience__item-picture
+                           source(srcset="../img/rootmedia-logo.webp" type="image/webp")
+                           img(src="../min-img/rootmedia-logo.png", alt="")
                      .experience__item-desc
-                        .experience__item-title Рабочии обязанности
+                        .experience__item-title 
+                           span.experience__item-position Верстальщик, front-end разработчик 
+                           a.experience__item-company(href="https://rootmedia.ru" target="blame") / Rootmedia
+                           p.experience__item-time Время работы:  02.20 - 11.20 (1 год)
+                        .experience__item-subtitle Рабочие обязанности:
                            ul.experience__subitems
-                              li.experience__subitem еуые
-                              li.experience__subitem еуые
-                              li.experience__subitem еуые
-                        .experience__item-title Что получил
+                              li.experience__subitem Верстка новых лэндингов и многостраничных сайтов.
+                              li.experience__subitem Поддержка существующих проектов.
+                              li.experience__subitem Работа с 1C-Bitrix.
+                        .experience__item-subtitle Чему научился:
                            ul.experience__subitems
-                              li.experience__subitem еуые
-                              li.experience__subitem еуые
-                              li.experience__subitem еуые
-
+                              li.experience__subitem Качественно и быстро выполнять свою работу.
+                              li.experience__subitem Соблюдать правила работы в офисе.
+                              li.experience__subitem Обязательная обратная связь с колегами и начальником.
       section.portfolio
          .container
             h2.section-title Портфолио
