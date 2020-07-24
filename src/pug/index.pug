@@ -17,8 +17,8 @@ html(lang="en")
          .intro__overlay
          .intro__inner
             .intro__text-wrapper
-               p.intro__hello-text  Привет, меня зовут Денис и я
-               .intro__sentence-wrapper 
+               p.intro__hello-text.hide.tran-1  Привет, меня зовут Денис и я
+               .intro__sentence-wrapper.hide.tran-2
                   ul.intro__first-word-wrapper.intro__symbol-wrapper
                      each letter in ['В','Е','Р','С','Т','А','Л','Ь','Щ','И','К' ]
                         li.intro__letter-inner
@@ -34,7 +34,7 @@ html(lang="en")
                      each letter in ['Р','А','З','Р','А','Б','О','Т','Ч','И','К']
                         li.intro__letter-inner
                            .intro__letter-text=letter
-               p.intro__about-text создаю современные и адаптивные сайты.
+               p.intro__about-text.hide.tran-3 создаю современные и адаптивные сайты.
       section.skill.section-bottom-margin
          .container
             h2.section-title Навыки
@@ -157,3 +157,5 @@ html(lang="en")
          .container
             h2.section-title Портфолио
             .portfolio__items
+      script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")         
+      script(src="../js/main.min.js")
