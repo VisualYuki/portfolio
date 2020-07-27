@@ -35,6 +35,47 @@ html(lang="en")
                         li.intro__letter-inner
                            .intro__letter-text=letter
                p.intro__about-text.hide.tran-3 создаю современные и адаптивные сайты.
+      section.about.section-bottom-margin
+         .container
+            .about__inner
+               .about__photo-wrapper
+                  picture.about__photo-picture
+                     source(srcset="../img/my-photo.webp" type="image/webp")
+                     img(src="../min-img/my-photo.jpg", alt="")
+               .about__text-wrapper
+                  .about__name Мошкин Денис
+                  .about__position Верстальщик / Frontend разработчик
+                  .about__about-me Я всей душой полюбил веб разрботку, и не жалею времени на постоянное развитие в этой области. <br>
+                     | Всегда стараюсь делать свою работу качественно и быстро.
+                  ul.about__items
+                     li.about__item
+                        .about__item-title Возраст
+                        .about__item-text 22 года
+                     li.about__item
+                        .about__item-title Телефон
+                        .about__item-text 89635508754, 89123323010
+                     li.about__item
+                        .about__item-title Медиа
+                        .about__item-text
+                           ul.about__link-items
+                              li.about__link-item
+                                 a.about__link-item(href="https://github.com/VisualYuki" target="blame")
+                                    img.about__link-item-img(src="../img/svg/github.svg")
+                              li.about__link-item
+                                 a.about__link-item.scale(href="https://gitlab.com/VisualYuki" target="blame")
+                                    img.about__link-item-img(src="../img/svg/gitlab.svg")
+                              li.about__link-item
+                                 a.about__link-item(href="https://vk.com/moshkin_denis" target="blame")
+                                    img.about__link-item-img(src="../img/svg/vk.svg")
+
+
+                     li.about__item
+                        .about__item-title 
+                        .about__item-text 
+                     li.about__item
+                        .about__item-title 
+                        .about__item-text 
+               
       section.skill.section-bottom-margin
          .container
             h2.section-title Навыки
@@ -128,6 +169,11 @@ html(lang="en")
                         img.skill__item-title-icon(src="../img/svg/schema.svg") 
                         snan.skill__item-title-text schema.org
                      p.skill__item-text Изучил . Научился использовать
+      section.portfolio
+         .container
+            h2.section-title Портфолио
+            .portfolio__items
+            
       section.experience.section-bottom-margin
          .container
             h2.section-title Опыт работы
@@ -153,9 +199,6 @@ html(lang="en")
                               li.experience__subitem Качественно и быстро выполнять свою работу.
                               li.experience__subitem Соблюдать правила работы в офисе.
                               li.experience__subitem Обязательная обратная связь с колегами и начальником.
-      section.portfolio
-         .container
-            h2.section-title Портфолио
-            .portfolio__items
+      
       script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")         
       script(src="../js/main.min.js")
