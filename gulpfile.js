@@ -35,7 +35,7 @@ gulp.task("build", gulp.series(clean, cache, favicons, build));
 
 gulp.task("dev", gulp.series(build, favicons, cache, serve));
 
-gulp.task("getLib", gulp.parallel(fancyBox, jquery, slickCarousel,simplebar,noUiSlider));
+gulp.task("getLib", gulp.parallel(fancyBox,lazysizes));
 
 gulp.task("default", gulp.series(min_jpg, webp, minPng));
 
@@ -45,6 +45,10 @@ function simplebar() {
 
 function fancyBox() {
    return gulp.src("node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js").pipe(rename("01_jquery.fancybox.min.js")).pipe(gulp.dest("src/js/00_libs/"));
+}
+
+function lazysizes() {
+   return gulp.src("node_modules/lazysizes/lazysizes.min.js").pipe(rename("05_lazysizes.min.js")).pipe(gulp.dest("src/js/00_libs/"));
 }
 
 function jquery() {

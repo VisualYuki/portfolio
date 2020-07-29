@@ -4,7 +4,6 @@ html(lang="en")
       meta(charset="UTF-8")
       meta(name="viewport", content="width=device-width, initial-scale=1.0")
       link(rel="stylesheet", href="../css/main.min.css")
-
       meta(name="msapplication-TileColor" content="#da532c")
       meta(name="theme-color" content="#ffffff")
       meta(name="viewport" content="width = 767")
@@ -13,7 +12,7 @@ html(lang="en")
       section.intro
          picture.intro__picture-background
             source(srcset="/img/intro__background.webp" type="image/webp")
-            img(src="/img/min-img/intro__background.jpg" alt="")
+            img(src="/min-img/intro__background.jpg" alt="")
          .intro__overlay
          .intro__inner
             .intro__text-wrapper
@@ -25,7 +24,6 @@ html(lang="en")
                            .intro__letter-text=letter
                   .intro__letter-inner.intro__divider-letter
                      .intro__letter-text /
-
                   ul.intro__second-word-wrapper.intro__symbol-wrapper
                      each letter in ['F','R','O','N','T','E','N','D' ]
                         li.intro__letter-inner
@@ -67,15 +65,12 @@ html(lang="en")
                               li.about__link-item
                                  a.about__link-item(href="https://vk.com/moshkin_denis" target="blame")
                                     img.about__link-item-img(src="../img/svg/vk.svg")
-
-
                      li.about__item
                         .about__item-title 
                         .about__item-text 
                      li.about__item
                         .about__item-title 
                         .about__item-text 
-               
       section.skill.section-bottom-margin
          .container
             h2.section-title Навыки
@@ -163,17 +158,122 @@ html(lang="en")
                      .skill__item-title 
                         img.skill__item-title-icon(src="../img/svg/skills.svg") 
                         snan.skill__item-title-text Остальное
-                     p.skill__item-text  Open Server, VS CODE, Virtual Box, FTP, SSH.
+                     p.skill__item-text  Open Server, VS CODE, Virtual Box, FTP, SSH, Yandex map api.
                   li.skill__item
                      .skill__item-title 
                         img.skill__item-title-icon(src="../img/svg/schema.svg") 
                         snan.skill__item-title-text schema.org
                      p.skill__item-text Изучил . Научился использовать
-      section.portfolio
+      section.portfolio.section-bottom-margin
          .container
             h2.section-title Портфолио
-            .portfolio__items
-            
+            h3.site-title 
+               img(src="../img/svg/studio-logo.svg" class="site-title__img" alt="", srcset="")
+               span Студия комфорта
+            ul.portfolio__items
+               li.portfolio__item
+                  p.portfolio__item-title Главная страница
+                  a(href="https://studio-comforta.ru")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/studio_intro.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/studio_intro.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_intro" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru" target="blame"  ) Перейти к странице
+               li.portfolio__item
+                  p.portfolio__item-title Главная страница
+                  a(href="https://studio-comforta.ru")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/studio_middle.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/studio_middle.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_middle" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru" target="blame") Перейти к странице
+               li.portfolio__item
+                  p.portfolio__item-title Форма выбора потолка
+                  a(href="https://studio-comforta.ru")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/studio_form.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/studio_form.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_form" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru" target="blame") Перейти к странице
+               li.portfolio__item
+                  p.portfolio__item-title Отзывы
+                  a(href="https://studio-comforta.ru/feedbacks")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/studio_reviews.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/studio_reviews.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_reviews" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru/feedbacks" target="blame") Перейти к странице
+               li.portfolio__item
+                  p.portfolio__item-title Карта местоположения
+                  a(href="https://studio-comforta.ru/contacts")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/studio_map.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/studio_map.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_map" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru/contacts" target="blame"  ) Перейти к странице
+            h3.site-title 
+               span Агросоюз
+            ul.portfolio__items
+               li.portfolio__item
+                  p.portfolio__item-title Главная страница
+                  a(href="http://agrosouz.43rm.ru/")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/agrosouz_intro.webp" type="image/webp" class="lazyload" )
+                        img(data-src="../min-img/agrosouz_intro.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_intro" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/" target="blame") Перейти к странице 
+               li.portfolio__item
+                  p.portfolio__item-title Каталог товаров
+                  a(href="http://agrosouz.43rm.ru/")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/agrosouz_catalog.webp" type="image/webp" class="lazyload" )
+                        img(data-src="../min-img/agrosouz_catalog.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_catalog" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/catalog/navesnoe-oborudovanie-k-traktoram/frontalnye-pogruzchiki" target="blame") Перейти к странице  
+               li.portfolio__item
+                  p.portfolio__item-title Каталог карта
+                  a(href="http://agrosouz.43rm.ru/contacts")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/agrosouz_map.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/agrosouz_map.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_map" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/contacts" target="blame") Перейти к странице 
+               li.portfolio__item
+                  p.portfolio__item-title О компании
+                  a(href="http://agrosouz.43rm.ru/about")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/agrosouz_about.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/agrosouz_about.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_about" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/about" target="blame") Перейти к странице 
+               li.portfolio__item
+                  p.portfolio__item-title Предкаталог
+                  a(href="http://agrosouz.43rm.ru/catalog")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/agrosouz_predcatalog.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/agrosouz_predcatalog.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_predcatalog" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/catalog" target="blame") Перейти к странице 
       section.experience.section-bottom-margin
          .container
             h2.section-title Опыт работы
@@ -188,10 +288,10 @@ html(lang="en")
                         .experience__item-title 
                            span.experience__item-position Верстальщик, front-end разработчик 
                            a.experience__item-company(href="https://rootmedia.ru" target="blame") / Rootmedia
-                           p.experience__item-time Время работы:  02.20 - 11.20 (1 год)
+                           p.experience__item-time Время работы:  02.20 - по настоящее время
                         .experience__item-subtitle Рабочие обязанности:
                            ul.experience__subitems
-                              li.experience__subitem Верстка новых лэндингов и многостраничных сайтов.
+                              li.experience__subitem Верстка лэндингов и многостраничных сайтов.
                               li.experience__subitem Поддержка существующих проектов.
                               li.experience__subitem Работа с 1C-Bitrix.
                         .experience__item-subtitle Чему научился:
@@ -199,6 +299,5 @@ html(lang="en")
                               li.experience__subitem Качественно и быстро выполнять свою работу.
                               li.experience__subitem Соблюдать правила работы в офисе.
                               li.experience__subitem Обязательная обратная связь с колегами и начальником.
-      
       script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")         
       script(src="../js/main.min.js")

@@ -45,6 +45,7 @@
 		"imagemin-gifsicle": "^7.0.0",
 		"imagemin-pngquant": "^8.0.0",
 		"imagemin-webp": "^5.1.0",
+		"lazysizes": "^5.2.2",
 		"less-plugin-autoprefix": "^2.0.0",
 		"magnific-popup": "^1.1.0",
 		"nouislider": "^14.6.0",
