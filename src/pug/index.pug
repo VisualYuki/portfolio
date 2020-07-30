@@ -8,7 +8,15 @@ html(lang="en")
       meta(name="theme-color" content="#ffffff")
       meta(name="viewport" content="width = 767")
       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&family=Roboto+Mono&display=swap" rel="stylesheet">
+      //-, "Навыки", "Портфолио", "Опыт работы"]
    body
+      header.header
+         .container
+            nav
+               ul.header__items
+                  each item,id in [["Обо мне", "about"],["Навыки","skill"],["Портфолио","portfolio"],["Опыт работы","experience"]]
+                     li.header__item   
+                        a.header__item-link(href= "#" + item[1])=item[0]
       section.intro
          picture.intro__picture-background
             source(srcset="/img/intro__background.webp" type="image/webp")
@@ -33,7 +41,7 @@ html(lang="en")
                         li.intro__letter-inner
                            .intro__letter-text=letter
                p.intro__about-text.hide.tran-3 создаю современные и адаптивные сайты.
-      section.about.section-bottom-margin
+      section.about.section-bottom-margin#about
          .container
             .about__inner
                .about__photo-wrapper
@@ -71,7 +79,7 @@ html(lang="en")
                      li.about__item
                         .about__item-title 
                         .about__item-text 
-      section.skill.section-bottom-margin
+      section.skill.section-bottom-margin#skill
          .container
             h2.section-title Навыки
             ul.skill__items
@@ -164,7 +172,7 @@ html(lang="en")
                         img.skill__item-title-icon(src="../img/svg/schema.svg") 
                         snan.skill__item-title-text schema.org
                      p.skill__item-text Изучил . Научился использовать
-      section.portfolio.section-bottom-margin
+      section.portfolio.section-bottom-margin#portfolio
          .container
             h2.section-title Портфолио
             h3.site-title 
@@ -235,7 +243,7 @@ html(lang="en")
                         a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_intro" data-name-ext="png" data-fancybox="") Увеличить фото
                         a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/" target="blame") Перейти к странице 
                li.portfolio__item
-                  p.portfolio__item-title Каталог товаров
+                  p.portfolio__item-title Поиск продукта
                   a(href="http://agrosouz.43rm.ru/")
                      picture.portfolio__item-picture
                         source(data-srcset="../img/agrosouz_catalog.webp" type="image/webp" class="lazyload" )
@@ -245,7 +253,17 @@ html(lang="en")
                         a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_catalog" data-name-ext="png" data-fancybox="") Увеличить фото
                         a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/catalog/navesnoe-oborudovanie-k-traktoram/frontalnye-pogruzchiki" target="blame") Перейти к странице  
                li.portfolio__item
-                  p.portfolio__item-title Каталог карта
+                  p.portfolio__item-title Карточка проекта
+                  a(href="http://agrosouz.43rm.ru/catalog")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/agrosouz_card-project.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/agrosouz_card-project.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_card-project" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/catalog" target="blame") Перейти к странице
+               li.portfolio__item
+                  p.portfolio__item-title Карта
                   a(href="http://agrosouz.43rm.ru/contacts")
                      picture.portfolio__item-picture
                         source(data-srcset="../img/agrosouz_map.webp" type="image/webp" class="lazyload")
@@ -265,7 +283,7 @@ html(lang="en")
                         a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_about" data-name-ext="png" data-fancybox="") Увеличить фото
                         a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/about" target="blame") Перейти к странице 
                li.portfolio__item
-                  p.portfolio__item-title Предкаталог
+                  p.portfolio__item-title Каталог товаров
                   a(href="http://agrosouz.43rm.ru/catalog")
                      picture.portfolio__item-picture
                         source(data-srcset="../img/agrosouz_predcatalog.webp" type="image/webp" class="lazyload")
@@ -274,7 +292,7 @@ html(lang="en")
                      .portfolio__btn-inner-wrapper
                         a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_predcatalog" data-name-ext="png" data-fancybox="") Увеличить фото
                         a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/catalog" target="blame") Перейти к странице 
-      section.experience.section-bottom-margin
+      section.experience.section-bottom-margin#experience
          .container
             h2.section-title Опыт работы
             ul.experience__items
