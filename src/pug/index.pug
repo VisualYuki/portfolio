@@ -59,10 +59,12 @@ html(lang="en")
                         .about__item-text 22 года
                      li.about__item
                         .about__item-title Телефон
-                        .about__item-text 89635508754, 89123323010
+                        .about__item-text 
+                           a.link(href="tel: +89635508754") 89635508754
+                          
                      li.about__item
                         .about__item-title Образование
-                        .about__item-text "ВятГУ" по направлению "Фундаментальная информатика и информационные технологии"
+                        .about__item-text "ВятГУ" по направлению "Фундаментальная информатика и информационные технологии" 3 курса.
                      li.about__item
                         .about__item-title Медиа
                         .about__item-text
@@ -70,9 +72,10 @@ html(lang="en")
                               li.about__link-item
                                  a.about__link-item(href="https://github.com/VisualYuki" target="blame")
                                     img.about__link-item-img(src="../img/svg/github.svg")
-                              li.about__link-item
+                              //li.about__link-item
                                  a.about__link-item.scale(href="https://gitlab.com/VisualYuki" target="blame")
                                     img.about__link-item-img(src="../img/svg/gitlab.svg")
+                                 
                               li.about__link-item
                                  a.about__link-item(href="https://vk.com/moshkin_denis" target="blame")
                                     img.about__link-item-img(src="../img/svg/vk.svg")
@@ -81,8 +84,8 @@ html(lang="en")
                         a.link(href="https://github.com/VisualYuki/portfolio" target="blame") Ссылка на репозиторий
                         
                      li.about__item
-                        .about__item-title 
-                        .about__item-text 
+                        .about__item-title Телеграмм
+                        .about__item-text @denis_moshkin
                      li.about__item
                         .about__item-title 
                         .about__item-text 
@@ -90,154 +93,207 @@ html(lang="en")
          .container
             h2.section-title Навыки
             ul.skill__items
-                  li.skill__item
+               li.skill__item
                      .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/web.svg")
-                        snan.skill__item-title-text верстка
-                     p.skill__item-text Изучил верстку страниц сайта по PSD, Figma макету. Научился верстать адаптивно и кроссбраузерно с применением медиа запросов. Использование семантической верстки для улучшения качества кода.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/gulp.svg")
-                        snan.skill__item-title-text gulp
-                     p.skill__item-text 
-                        |Изучил таскранер Gulp. Научился использовать плагины для минификации кода и изображений, сборки файлов, постпроцессоры, сервер проекта, а также линтеры для JS, CSS, PUG. 
-                        a.link(href="https://github.com/VisualYuki/Gulp-config" target="blame")  Ссылка на репозиторий с конфигом.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/optimization.svg")
-                        snan.skill__item-title-text Оптимизация сайта
-                     p.skill__item-text Изучил методы оптимизации сайта. Научился использовать програссивные форматы изображений (webp), ленивую загрузку фото, минимальную вложенность DOM, минификация кода, а также научился работать с панелью разработчика для отслеживания процесса работы сайта. 
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/git.svg")
-                        snan.skill__item-title-text GIT/GITHUB
-                     p.skill__item-text Изучил систему контроля версий. Научился пользоваться git bush для локальной работы с проектом и github для хранния проекта на удаленном сервере, а также коммитить, пушить, мержить, работать с ветками, стэшить и изучил pull request и fetch. Использую gitlab и github
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/webpack.svg")
-                        snan.skill__item-title-text Webpack 
-                     p.skill__item-text 
-                     | Изучил сборщик проектов webpack. Научился настраивать конфиг под проекты с фреймворком Vue.js
-                     a.link(href="https://github.com/VisualYuki/webpack-config" target="blame")  Ссылка на репозиторий с конфигом.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/js.svg")
-                        snan.skill__item-title-text javascript
-                     p.skill__item-text Изучил язык программирования - Javascript. Научился использовать функции, классы, встроенные объекты а также работать с DOM моделью сайта.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/jquery.svg" alt="")
-                        snan.skill__item-title-text JQuery
-                     p.skill__item-text Изучил библиотеку для js - JQuery. Научился использовать селекторы, события, методы работы с DOM, эффекты и анимацию.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/html-5.svg" alt="")
-                        snan.skill__item-title-text HTML5
-                     p.skill__item-text Изучил язык гипертекстовой разметки текста - HTML. Научился делать качественную разметку веб-страницы, используя всевозможные тэги и атрибуты.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/css.svg" alt="")
-                        snan.skill__item-title-text CSS3
-                     p.skill__item-text Изучил таблицу каскадных стилей CSS. Научился использовать grid и flex в зависимости от поставленной задачи, а также всевозможные стили.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/sass.svg" alt="")
-                        snan.skill__item-title-text less/sass/stylus
-                     p.skill__item-text Изучил CSS препроцессоры. Научился использовать переменные, миксины, вложенность, циклы, импорты для ускорения верстки сайта.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/pug.svg" alt="")
-                        snan.skill__item-title-text pug
-                     p.skill__item-text Изучил шаблонизатор для html. Научился использовать циклами, переменными, блоками, импортами, инклюдами, миксинами.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/linux.svg" alt="") 
-                        snan.skill__item-title-text linux
-                     p.skill__item-text Изучил операционную систему Linux . Научился пользоваться терминалом, настраивать LAMP сервер.  
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/english-language.svg" alt="")
-                        snan.skill__item-title-text АНГЛИЙСКИЙ ЯЗЫК
-                     p.skill__item-text Научился читать и понимать английские тексты: чтение документаций к плагинам, редакторам кода, ЯП, а также понимание интерфейса программ. Стараюсь читать все в оригинале.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/yandex.svg" alt="")
-                        snan.skill__item-title-text бэм методология
-                     p.skill__item-text Изучил методологию верстки - BAM-naming. Научился стандартному наименованию классов и разделению ответственности между блоками, а также конецпции блок, элемент, модификатор.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/email.svg" alt="")
-                        snan.skill__item-title-text MJML
-                     p.skill__item-text Изучил фреймворк для верстки писем. Научился использовать тэгами и стилями. Понимаю как верстать письма без фреймворков.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/skills.svg" alt="") 
-                        snan.skill__item-title-text Остальное
-                     p.skill__item-text  Open Server, VS CODE, Virtual Box, FTP, SSH, Yandex map api.
-                  li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/schema.svg" alt="") 
-                        snan.skill__item-title-text schema.org
-                     p.skill__item-text Изучил . Научился использовать
+                        img.skill__item-title-icon(src="../img/svg/wordpress.svg")
+                        snan.skill__item-title-text Wordpress
+                     p.skill__item-text Изучил CMS систему управления контентом. Научился работать со стандартными классами и методами, владеть простейшими знаниями в php, работать с админкой и связывать админку с версткой. 
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/web.svg")
+                     snan.skill__item-title-text верстка
+                  p.skill__item-text Изучил верстку страниц сайта по PSD, Figma макету. Научился верстать адаптивно и кроссбраузерно с применением медиа запросов. Использование семантической верстки для улучшения качества кода.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/gulp.svg")
+                     snan.skill__item-title-text gulp
+                  p.skill__item-text 
+                     |Изучил таскранер Gulp. Научился использовать плагины для минификации кода и изображений, сборки файлов, постпроцессоры, сервер проекта, а также линтеры для JS, CSS, PUG. 
+                     a.link(href="https://github.com/VisualYuki/Gulp-config" target="blame")  Ссылка на репозиторий с конфигом.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/optimization.svg")
+                     snan.skill__item-title-text Оптимизация сайта
+                  p.skill__item-text Изучил методы оптимизации сайта. Научился использовать програссивные форматы изображений (webp), ленивую загрузку фото, минимальную вложенность DOM, минификация кода, а также научился работать с панелью разработчика для отслеживания процесса работы сайта. 
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/git.svg")
+                     snan.skill__item-title-text GIT/GITHUB
+                  p.skill__item-text Изучил систему контроля версий. Научился пользоваться git bush для локальной работы с проектом и github для хранния проекта на удаленном сервере, а также коммитить, пушить, мержить, работать с ветками, стэшить и изучил pull request и fetch. Использую gitlab и github
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/webpack.svg")
+                     snan.skill__item-title-text Webpack 
+                  p.skill__item-text 
+                  | Изучил сборщик проектов webpack. Научился настраивать конфиг под проекты с фреймворком Vue.js
+                  a.link(href="https://github.com/VisualYuki/webpack-config" target="blame")  Ссылка на репозиторий с конфигом.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/js.svg")
+                     snan.skill__item-title-text javascript
+                  p.skill__item-text Изучил язык программирования - Javascript. Научился использовать функции, классы, встроенные объекты а также работать с DOM моделью сайта.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/jquery.svg" alt="")
+                     snan.skill__item-title-text JQuery
+                  p.skill__item-text Изучил библиотеку для js - JQuery. Научился использовать селекторы, события, методы работы с DOM, эффекты и анимацию.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/html-5.svg" alt="")
+                     snan.skill__item-title-text HTML5
+                  p.skill__item-text Изучил язык гипертекстовой разметки текста - HTML. Научился делать качественную разметку веб-страницы, используя всевозможные тэги и атрибуты.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/css.svg" alt="")
+                     snan.skill__item-title-text CSS3
+                  p.skill__item-text Изучил таблицу каскадных стилей CSS. Научился использовать grid и flex в зависимости от поставленной задачи, а также всевозможные стили.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/sass.svg" alt="")
+                     snan.skill__item-title-text less/sass/stylus
+                  p.skill__item-text Изучил CSS препроцессоры. Научился использовать переменные, миксины, вложенность, циклы, импорты для ускорения верстки сайта.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/pug.svg" alt="")
+                     snan.skill__item-title-text pug
+                  p.skill__item-text Изучил шаблонизатор для html. Научился использовать циклами, переменными, блоками, импортами, инклюдами, миксинами.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/linux.svg" alt="") 
+                     snan.skill__item-title-text linux
+                  p.skill__item-text Изучил операционную систему Linux . Научился пользоваться терминалом, настраивать LAMP сервер.  
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/english-language.svg" alt="")
+                     snan.skill__item-title-text АНГЛИЙСКИЙ ЯЗЫК
+                  p.skill__item-text Научился читать и понимать английские тексты: чтение документаций к плагинам, редакторам кода, ЯП, а также понимание интерфейса программ. Стараюсь читать все в оригинале.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/yandex.svg" alt="")
+                     snan.skill__item-title-text бэм методология
+                  p.skill__item-text Изучил методологию верстки - BAM-naming. Научился стандартному наименованию классов и разделению ответственности между блоками, а также конецпции блок, элемент, модификатор.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/email.svg" alt="")
+                     snan.skill__item-title-text MJML
+                  p.skill__item-text Изучил фреймворк для верстки писем. Научился использовать тэгами и стилями. Понимаю как верстать письма без фреймворков.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/skills.svg" alt="") 
+                     snan.skill__item-title-text Остальное
+                  p.skill__item-text  Open Server, VS CODE, Virtual Box, FTP, SSH, Yandex map api.
+               //li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/schema.svg" alt="") 
+                     snan.skill__item-title-text schema.org
+                  p.skill__item-text Изучил . Научился использовать
+      section.experience.section-bottom-margin#experience
+         .container
+            h2.section-title Опыт работы
+            ul.experience__items
+               -for(let i = 0; i < 1; i++)
+                  li.experience__item
+                     a.experience__item-picture-link(href="https://rootmedia.ru" target="blame")
+                        picture.experience__item-picture
+                           source(srcset="../img/rootmedia-logo.webp" type="image/webp")
+                           img(src="../min-img/rootmedia-logo.png", alt="")
+                     .experience__item-desc
+                        .experience__item-title 
+                           span.experience__item-position Верстальщик, front-end разработчик 
+                           a.experience__item-company(href="https://rootmedia.ru" target="blame") / Rootmedia
+                           p.experience__item-time Время работы:  02.20 - по настоящее время
+                        .experience__item-subtitle Рабочие обязанности:
+                           ul.experience__subitems
+                              li.experience__subitem Верстка лэндингов и многостраничных сайтов.
+                              li.experience__subitem Поддержка существующих проектов.
+                              li.experience__subitem Работа с 1C-Bitrix.
+                        .experience__item-subtitle Чему научился:
+                           ul.experience__subitems
+                              li.experience__subitem Качественно и быстро выполнять свою работу.
+                              li.experience__subitem Соблюдать правила работы в офисе.
+                              li.experience__subitem Обязательная обратная связь с колегами и начальником.      
       section.portfolio.section-bottom-margin#portfolio
          .container
             h2.section-title Портфолио
             h3.site-title 
-               img(src="../img/svg/studio-logo.svg" class="site-title__img" alt="", srcset="")
-               span Студия комфорта
+               img(src="../min-img/logo-shizhma.png" class="site-title__img" alt="", srcset="")
+               span Шижма
+            ul.portfolio__desc
+               li Сайт полностью сделан мной (верстка, натяжка, заполнение контентом)
+               li Весь контент добавляеться через админку WP
+               li Есть обратная форма связи ( на почту)
+               li Страницы событие (летнне, зимнее, осеннее) сделаны в виде шаблона
+               li Live страница поддерживает трансляцию с youtube при указании id канала.
             ul.portfolio__items
-               li.portfolio__item
+               li.portfolio__item 
                   p.portfolio__item-title Главная страница
-                  a(href="https://studio-comforta.ru")
-                     picture.portfolio__item-picture
-                        source(data-srcset="../img/studio_intro.webp" type="image/webp" class="lazyload")
-                        img(data-src="../min-img/studio_intro.png", alt="" class="lazyload")
+                  picture.portfolio__item-picture
+                     source(data-srcset="../img/shizhma_index.webp" type="image/webp" class="lazyload")
+                     img(data-src="../min-img/shizhma_index.phg", alt="" class="lazyload")
                   .portfolio__btn-wrapper
                      .portfolio__btn-inner-wrapper
-                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_intro" data-name-ext="png" data-fancybox="") Увеличить фото
-                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru" target="blame"  ) Перейти к странице
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="shizhma_index" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://shizhma-new.shizhma.com" target="blame"  ) Перейти к странице
+               li.portfolio__item 
+                  p.portfolio__item-title Результаты
+                  picture.portfolio__item-picture
+                     source(data-srcset="../img/shizhma_results.webp" type="image/webp" class="lazyload")
+                     img(data-src="../min-img/shizhma_results.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="shizhma_results" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://shizhma-new.shizhma.com/results/" target="blame"  ) Перейти к странице
                li.portfolio__item
-                  p.portfolio__item-title Главная страница
-                  a(href="https://studio-comforta.ru")
-                     picture.portfolio__item-picture
-                        source(data-srcset="../img/studio_middle.webp" type="image/webp" class="lazyload")
-                        img(data-src="../min-img/studio_middle.png", alt="" class="lazyload")
+                  p.portfolio__item-title Участникам
+                  picture.portfolio__item-picture
+                     source(data-srcset="../img/shizhma_living.webp" type="image/webp" class="lazyload")
+                     img(data-src="../min-img/shizhma_living.png", alt="" class="lazyload")
                   .portfolio__btn-wrapper
                      .portfolio__btn-inner-wrapper
-                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_middle" data-name-ext="png" data-fancybox="") Увеличить фото
-                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru" target="blame") Перейти к странице
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="shizhma_living" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://shizhma-new.shizhma.com/players/" target="blame"  ) Перейти к странице  
                li.portfolio__item
-                  p.portfolio__item-title Форма выбора потолка
-                  a(href="https://studio-comforta.ru")
-                     picture.portfolio__item-picture
-                        source(data-srcset="../img/studio_form.webp" type="image/webp" class="lazyload")
-                        img(data-src="../min-img/studio_form.png", alt="" class="lazyload")
+                  p.portfolio__item-title Контакты
+                  picture.portfolio__item-picture
+                     source(data-srcset="../img/shizhma_contacts.webp" type="image/webp" class="lazyload")
+                     img(data-src="../min-img/shizhma_contacts.png", alt="" class="lazyload")
                   .portfolio__btn-wrapper
                      .portfolio__btn-inner-wrapper
-                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_form" data-name-ext="png" data-fancybox="") Увеличить фото
-                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru" target="blame") Перейти к странице
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="shizhma_contacts" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://shizhma-new.shizhma.com/contacts/" target="blame"  ) Перейти к странице    
                li.portfolio__item
-                  p.portfolio__item-title Отзывы
-                  a(href="https://studio-comforta.ru/feedbacks")
-                     picture.portfolio__item-picture
-                        source(data-srcset="../img/studio_reviews.webp" type="image/webp" class="lazyload")
-                        img(data-src="../min-img/studio_reviews.png", alt="" class="lazyload")
+                  p.portfolio__item-title Live соревнования
+                
+                  picture.portfolio__item-picture
+                     source(data-srcset="../img/shizhma_live.webp" type="image/webp" class="lazyload")
+                     img(data-src="../min-img/shizhma_live.png", alt="" class="lazyload")
                   .portfolio__btn-wrapper
                      .portfolio__btn-inner-wrapper
-                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_reviews" data-name-ext="png" data-fancybox="") Увеличить фото
-                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru/feedbacks" target="blame") Перейти к странице
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="shizhma_live" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://shizhma-new.shizhma.com/live/" target="blame"  ) Перейти к странице 
                li.portfolio__item
-                  p.portfolio__item-title Карта местоположения
-                  a(href="https://studio-comforta.ru/contacts")
-                     picture.portfolio__item-picture
-                        source(data-srcset="../img/studio_map.webp" type="image/webp" class="lazyload")
-                        img(data-src="../min-img/studio_map.png", alt="" class="lazyload")
+                  p.portfolio__item-title Зимнее событие
+                  picture.portfolio__item-picture
+                     source(data-srcset="../img/shizhma_snow-event.webp" type="image/webp" class="lazyload")
+                     img(data-src="../min-img/shizhma_snow-event.png", alt="" class="lazyload")
                   .portfolio__btn-wrapper
                      .portfolio__btn-inner-wrapper
-                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_map" data-name-ext="png" data-fancybox="") Увеличить фото
-                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru/contacts" target="blame"  ) Перейти к странице
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="shizhma_snow-event" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://shizhma-new.shizhma.com/лыжный-марафон/" target="blame"  ) Перейти к странице 
+               li.portfolio__item
+                  p.portfolio__item-title Летнее событие
+                  picture.portfolio__item-picture
+                     source(data-srcset="../img/shizhma_summer-event.webp" type="image/webp" class="lazyload")
+                     img(data-src="../min-img/shizhma_summer-event.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="shizhma_summer-event" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="http://shizhma-new.shizhma.com/кросс-кантри-веломарафон/" target="blame"  ) Перейти к странице                                                                                                                                                         
             h3.site-title 
                span Агросоюз
+            ul.portfolio__desc
+               li Сайт с каталогом, карточкой товара
+               li С меня была только верстка
             ul.portfolio__items
                li.portfolio__item
                   p.portfolio__item-title Главная страница
@@ -299,30 +355,59 @@ html(lang="en")
                      .portfolio__btn-inner-wrapper
                         a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="agrosouz_predcatalog" data-name-ext="png" data-fancybox="") Увеличить фото
                         a.portfolio__btn-link.portfolio__btn(href="http://agrosouz.43rm.ru/catalog" target="blame") Перейти к странице 
-      section.experience.section-bottom-margin#experience
-         .container
-            h2.section-title Опыт работы
-            ul.experience__items
-               -for(let i = 0; i < 1; i++)
-                  li.experience__item
-                     a.experience__item-picture-link(href="https://rootmedia.ru" target="blame")
-                        picture.experience__item-picture
-                           source(srcset="../img/rootmedia-logo.webp" type="image/webp")
-                           img(src="../min-img/rootmedia-logo.png", alt="")
-                     .experience__item-desc
-                        .experience__item-title 
-                           span.experience__item-position Верстальщик, front-end разработчик 
-                           a.experience__item-company(href="https://rootmedia.ru" target="blame") / Rootmedia
-                           p.experience__item-time Время работы:  02.20 - по настоящее время
-                        .experience__item-subtitle Рабочие обязанности:
-                           ul.experience__subitems
-                              li.experience__subitem Верстка лэндингов и многостраничных сайтов.
-                              li.experience__subitem Поддержка существующих проектов.
-                              li.experience__subitem Работа с 1C-Bitrix.
-                        .experience__item-subtitle Чему научился:
-                           ul.experience__subitems
-                              li.experience__subitem Качественно и быстро выполнять свою работу.
-                              li.experience__subitem Соблюдать правила работы в офисе.
-                              li.experience__subitem Обязательная обратная связь с колегами и начальником.
+            h3.site-title 
+               img(src="../img/svg/studio-logo.svg" class="site-title__img" alt="", srcset="")
+               span Студия комфорта
+            ul.portfolio__items
+               li.portfolio__item
+                  p.portfolio__item-title Главная страница
+                  a(href="https://studio-comforta.ru")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/studio_intro.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/studio_intro.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_intro" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru" target="blame"  ) Перейти к странице
+               li.portfolio__item
+                  p.portfolio__item-title Главная страница
+                  a(href="https://studio-comforta.ru")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/studio_middle.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/studio_middle.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_middle" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru" target="blame") Перейти к странице
+               li.portfolio__item
+                  p.portfolio__item-title Форма выбора потолка
+                  a(href="https://studio-comforta.ru")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/studio_form.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/studio_form.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_form" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru" target="blame") Перейти к странице
+               li.portfolio__item
+                  p.portfolio__item-title Отзывы
+                  a(href="https://studio-comforta.ru/feedbacks")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/studio_reviews.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/studio_reviews.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_reviews" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru/feedbacks" target="blame") Перейти к странице
+               li.portfolio__item
+                  p.portfolio__item-title Карта местоположения
+                  a(href="https://studio-comforta.ru/contacts")
+                     picture.portfolio__item-picture
+                        source(data-srcset="../img/studio_map.webp" type="image/webp" class="lazyload")
+                        img(data-src="../min-img/studio_map.png", alt="" class="lazyload")
+                  .portfolio__btn-wrapper
+                     .portfolio__btn-inner-wrapper
+                        a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_map" data-name-ext="png" data-fancybox="") Увеличить фото
+                        a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru/contacts" target="blame"  ) Перейти к странице
       script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")         
       script(src="../js/main.min.js")

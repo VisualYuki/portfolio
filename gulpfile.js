@@ -37,7 +37,7 @@ gulp.task("dev", gulp.series(build, favicons, cache, serve));
 
 gulp.task("getLib", gulp.parallel(fancyBox,lazysizes));
 
-gulp.task("default", gulp.series(min_jpg, webp, minPng));
+gulp.task("default", gulp.series(webp));
 
 function simplebar() {
    return gulp.src("node_modules/simplebar/dist/simplebar.min.js").pipe(rename("03_simplebar.min.js")).pipe(gulp.dest("src/js/00_libs/"));

@@ -228,9 +228,14 @@ body {
 
          font-size: 14px;
          color: @gray;
+         white-space: nowrap;
       }
 
       &-text {
+         display: flex;
+         align-items: center;
+         justify-content: left;
+
          flex-grow: 1;
 
          font-size: 14px;
@@ -476,6 +481,14 @@ body {
 
       &:hover .portfolio__btn-wrapper {
          opacity: 1;
+      }
+   }
+
+   &__desc {
+      margin-bottom: 40px;
+
+      li {
+         list-style-type: decimal;
       }
    }
 
