@@ -14,7 +14,7 @@ html(lang="en")
          .container
             nav
                ul.header__items
-                  each item,id in [["Обо мне", "about"],["Навыки","skill"],["Портфолио","portfolio"],["Опыт работы","experience"]]
+                  each item,id in [["Обо мне", "about"],["Навыки","skill"], ["Опыт работы","experience"], ["Портфолио","portfolio"]]
                      li.header__item   
                         a.header__item-link(href= "#" + item[1])=item[0]
       section.intro
@@ -53,6 +53,7 @@ html(lang="en")
                   .about__position Верстальщик / Frontend разработчик
                   .about__about-me Я всей душой полюбил веб разрботку, и не жалею времени на постоянное развитие в этой области. <br>
                      | Всегда стараюсь делать свою работу качественно и быстро.
+                  .about__about-me.bottom-margin Хотел бы развиваться в сторону Vue.js, React, а также в Yii2, Laravel.
                   ul.about__items
                      li.about__item
                         .about__item-title Возраст
@@ -150,14 +151,14 @@ html(lang="en")
                li.skill__item
                   .skill__item-title 
                      img.skill__item-title-icon(src="../img/svg/sass.svg" alt="")
-                     snan.skill__item-title-text less/sass/stylus
+                     snan.skill__item-title-text less/sass
                   p.skill__item-text Изучил CSS препроцессоры. Научился использовать переменные, миксины, вложенность, циклы, импорты для ускорения верстки сайта.
                li.skill__item
                   .skill__item-title 
                      img.skill__item-title-icon(src="../img/svg/pug.svg" alt="")
                      snan.skill__item-title-text pug
                   p.skill__item-text Изучил шаблонизатор для html. Научился использовать циклами, переменными, блоками, импортами, инклюдами, миксинами.
-               li.skill__item
+               //li.skill__item
                   .skill__item-title 
                      img.skill__item-title-icon(src="../img/svg/linux.svg" alt="") 
                      snan.skill__item-title-text linux
@@ -179,9 +180,25 @@ html(lang="en")
                   p.skill__item-text Изучил фреймворк для верстки писем. Научился использовать тэгами и стилями. Понимаю как верстать письма без фреймворков.
                li.skill__item
                   .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/twig.svg")
+                     snan.skill__item-title-text twig
+                  p.skill__item-text 
+                     |Изучил препроцессор twig. Научился использовать циклы, условия, layout, extends, include, loop.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/php.svg" alt="")
+                     snan.skill__item-title-text PHP
+                  p.skill__item-text Изучил язык программирования PHP. Научился использовать for, foreach, var, if, echo.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/sql-server.svg" alt="")
+                     snan.skill__item-title-text SQL
+                  p.skill__item-text Изучил язык структурированых запросов SQL. Знаю на уровне запросов: insert, select, join, update, delete, а также нормальные формы Бойса-Кодда.
+               li.skill__item
+                  .skill__item-title 
                      img.skill__item-title-icon(src="../img/svg/skills.svg" alt="") 
                      snan.skill__item-title-text Остальное
-                  p.skill__item-text  Open Server, VS CODE, Virtual Box, FTP, SSH, Yandex map api.
+                  p.skill__item-text  Open Server, VS CODE, Virtual Box, FTP, SSH, Yandex map api, С#
                //li.skill__item
                   .skill__item-title 
                      img.skill__item-title-icon(src="../img/svg/schema.svg" alt="") 
@@ -216,7 +233,7 @@ html(lang="en")
          .container
             h2.section-title Портфолио
             h3.site-title 
-               img(src="../min-img/logo-shizhma.png" class="site-title__img" alt="", srcset="")
+               //img(src="../min-img/logo-shizhma.png" class="site-title__img" alt="", srcset="")
                span Шижма
             ul.portfolio__desc
                li Сайт полностью сделан мной (верстка, натяжка, заполнение контентом)
@@ -292,7 +309,7 @@ html(lang="en")
             h3.site-title 
                span Агросоюз
             ul.portfolio__desc
-               li Сайт с каталогом, карточкой товара
+               li Есть каталог и карточка товара, событие, новости.
                li С меня была только верстка
             ul.portfolio__items
                li.portfolio__item
@@ -409,5 +426,13 @@ html(lang="en")
                      .portfolio__btn-inner-wrapper
                         a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="studio_map" data-name-ext="png" data-fancybox="") Увеличить фото
                         a.portfolio__btn-link.portfolio__btn(href="https://studio-comforta.ru/contacts" target="blame"  ) Перейти к странице
+            h3.site-title 
+               span Спайдер солитер 
+            ul.portfolio__desc
+               li Полносью написан на js.
+               li Игра отлажена не польностью(так как не было много времени), поэтому могут быть баги.
+               li 
+                  a.link(href="https://github.com/VisualYuki/-spider-solitaire/blob/master/js/index.js" target="_blank") Ссылка на репозиторий с игрой
+            img.game-img(src="" alt="" title="")
       script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")         
       script(src="../js/main.min.js")
