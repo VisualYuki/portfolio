@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.min.css"/>
+    <script src="../js/main.min.js"></script>
+  </head>
+  <body>
+    <div class="page-wrap">
+      <div class="quiz" id="quiz">
+        <div class="quiz__steps-wrap">
+          <ol class="quiz__steps-items">
+            <li class="quiz__steps-item" v-for="index in questions.length" :class="{'current-step' :index == (currentQuestionIndex + 1)}">{{index}}</li>
+          </ol>
+        </div>
+        <div class="quiz__content" v-if="currentQuestionIndex !== questions.length">
+          <h1 class="quiz__content-title">Test of english grammer</h1>
+          <p class="quiz__question-text">{{ questions[currentQuestionIndex].question }}</p>
+          <ol class="quiz__question-items">
+            <li class="quiz__question-item" v-for="answer in questions[currentQuestionIndex].answers" :class="{'error': !isRightAnswer(currentQuestionIndex, answer), 'success': isRightAnswer(currentQuestionIndex, answer)}">
+              <!--:data-right-answer="questions[currentQuestionIndex].rightAnswer" :class="{'success': $(this).find(input:checked).length == 0}"-->
+              <label class="quiz__question-label">
+                <input type="radio" name="quiz"/>
+                <div class="quiz__question-checked" @click="selectAnswer"></div>
+                <p class="quiz__question-choice" v-text="answer" @click="selectAnswer"></p>
+              </label>
+            </li>
+          </ol>
+          <div class="quiz__btns-wrap">
+            <div class="quiz__btn-next btn" @click="pressedNextBtn">Next</div>
+          </div>
+        </div>
+        <div class="quiz__end" v-else="v-else">
+          <p class="quiz__end-text">Вы ответили правильно на {{correctAnswerCount}} вопрос(-ов)</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

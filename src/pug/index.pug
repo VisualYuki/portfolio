@@ -7,8 +7,14 @@ html(lang="en")
       meta(name="msapplication-TileColor" content="#da532c")
       meta(name="theme-color" content="#ffffff")
       meta(name="viewport" content="width = 767")
-      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&family=Roboto+Mono&display=swap" rel="stylesheet">
-      //-, "Навыки", "Портфолио", "Опыт работы"]
+      link(href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&family=Roboto+Mono&display=swap" rel="stylesheet")
+      link(rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png")
+      link(rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png")
+      link(rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png")
+      link(rel="manifest" href="/favicons/site.webmanifest")
+      link(rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5")
+      meta(name="msapplication-TileColor" content="#da532c")
+      meta(name="theme-color" content="#ffffff")
    body
       header.header
          .container
@@ -53,7 +59,7 @@ html(lang="en")
                   .about__position Верстальщик / Frontend разработчик
                   .about__about-me Я всей душой полюбил веб разрботку, и не жалею времени на постоянное развитие в этой области. <br>
                      | Всегда стараюсь делать свою работу качественно и быстро.
-                  .about__about-me.bottom-margin Хотел бы развиваться в сторону Vue.js, React, а также в Yii2, Laravel.
+                  .about__about-me.bottom-margin Хотел бы развиваться в сторону Vue.js, React, а также Yii2 и Laravel.
                   ul.about__items
                      li.about__item
                         .about__item-title Возраст
@@ -95,15 +101,25 @@ html(lang="en")
             h2.section-title Навыки
             ul.skill__items
                li.skill__item
-                     .skill__item-title 
-                        img.skill__item-title-icon(src="../img/svg/wordpress.svg")
-                        snan.skill__item-title-text Wordpress
-                     p.skill__item-text Изучил CMS систему управления контентом. Научился работать со стандартными классами и методами, владеть простейшими знаниями в php, работать с админкой и связывать админку с версткой. 
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/vue-js.svg")
+                     snan.skill__item-title-text Vue.js
+                  p.skill__item-text Изучил Прогрессивный JavaScript-фреймворк. Научился использовать работать с классами, события, директивами, компонентами.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/wordpress.svg")
+                     snan.skill__item-title-text Wordpress
+                  p.skill__item-text Изучил CMS систему управления контентом. Научился работать со стандартными классами и методами, владеть бызовыми знаниями в php, работать с админкой и связывать админку с версткой. 
                li.skill__item
                   .skill__item-title 
                      img.skill__item-title-icon(src="../img/svg/web.svg")
                      snan.skill__item-title-text верстка
                   p.skill__item-text Изучил верстку страниц сайта по PSD, Figma макету. Научился верстать адаптивно и кроссбраузерно с применением медиа запросов. Использование семантической верстки для улучшения качества кода.
+               li.skill__item
+                  .skill__item-title 
+                     img.skill__item-title-icon(src="../img/svg/ajax.svg")
+                     snan.skill__item-title-text AJAX
+                  p.skill__item-text Изучил AJAX - асинхронный JavaScript и XML. Научился работать с сервером: отправлять, получать запросы и обрабатывать их на странице.
                li.skill__item
                   .skill__item-title 
                      img.skill__item-title-icon(src="../img/svg/gulp.svg")
@@ -126,7 +142,8 @@ html(lang="en")
                      img.skill__item-title-icon(src="../img/svg/webpack.svg")
                      snan.skill__item-title-text Webpack 
                   p.skill__item-text 
-                  | Изучил сборщик проектов webpack. Научился настраивать конфиг под проекты с фреймворком Vue.js
+                  | Изучил сборщик проектов webpack
+                  //. Научился настраивать конфиг под проекты с фреймворком Vue.js
                   a.link(href="https://github.com/VisualYuki/webpack-config" target="blame")  Ссылка на репозиторий с конфигом.
                li.skill__item
                   .skill__item-title 
@@ -151,7 +168,7 @@ html(lang="en")
                li.skill__item
                   .skill__item-title 
                      img.skill__item-title-icon(src="../img/svg/sass.svg" alt="")
-                     snan.skill__item-title-text less/sass
+                     snan.skill__item-title-text less/sass/scss
                   p.skill__item-text Изучил CSS препроцессоры. Научился использовать переменные, миксины, вложенность, циклы, импорты для ускорения верстки сайта.
                li.skill__item
                   .skill__item-title 
@@ -177,7 +194,8 @@ html(lang="en")
                   .skill__item-title 
                      img.skill__item-title-icon(src="../img/svg/email.svg" alt="")
                      snan.skill__item-title-text MJML
-                  p.skill__item-text Изучил фреймворк для верстки писем. Научился использовать тэгами и стилями. Понимаю как верстать письма без фреймворков.
+                  p.skill__item-text Изучил фреймворк для верстки писем. Научился использовать тэгами и стилями. 
+                  //Понимаю как верстать письма без фреймворков.
                li.skill__item
                   .skill__item-title 
                      img.skill__item-title-icon(src="../img/svg/twig.svg")
@@ -218,11 +236,12 @@ html(lang="en")
                         .experience__item-title 
                            span.experience__item-position Верстальщик, front-end разработчик 
                            a.experience__item-company(href="https://rootmedia.ru" target="blame") / Rootmedia
-                           p.experience__item-time Время работы:  02.20 - по настоящее время
+                           p.experience__item-time Время работы: 02.20 - 10.20 (8 месяцев)
                         .experience__item-subtitle Рабочие обязанности:
                            ul.experience__subitems
                               li.experience__subitem Верстка лэндингов и многостраничных сайтов.
                               li.experience__subitem Поддержка существующих проектов.
+                              li.experience__subitem Создание дополнительных страниц для сущ. сайтов.
                               li.experience__subitem Работа с 1C-Bitrix.
                         .experience__item-subtitle Чему научился:
                            ul.experience__subitems
@@ -306,6 +325,19 @@ html(lang="en")
                      .portfolio__btn-inner-wrapper
                         a.portfolio__btn-extend.portfolio__btn(class="lazyload" data-href="" data-img-name ="shizhma_summer-event" data-name-ext="png" data-fancybox="") Увеличить фото
                         a.portfolio__btn-link.portfolio__btn(href="http://shizhma-new.shizhma.com/кросс-кантри-веломарафон/" target="blame"  ) Перейти к странице                                                                                                                                                         
+            h3.site-title 
+               span Квиз по английскому языку (Vue.js)
+            
+            ul.portfolio__desc
+               li Квиз сделан на Vue.js с использоавнием AJAX запросов.
+               li 
+                  a.link(href="https://github.com/VisualYuki/english-quiz-vue.js-/blob/master/src/js/01_scripts/quiz.js") Ссылка на репозиторий.
+               li
+                  a.link(href="../projects/english quiz/dist/pages/index.html") Ссылка на квиз
+
+            picture.game-img
+               source(data-srcset="/img/english-quiz.webp" type="image/webp" class="lazyload")
+               img(data-src="/min-img/english-quiz.png", alt="" class="lazyload")
             h3.site-title 
                span Агросоюз
             ul.portfolio__desc
@@ -433,6 +465,10 @@ html(lang="en")
                li Игра отлажена не польностью(так как не было много времени), поэтому могут быть баги.
                li 
                   a.link(href="https://github.com/VisualYuki/-spider-solitaire/blob/master/js/index.js" target="_blank") Ссылка на репозиторий с игрой
-            img.game-img(src="" alt="" title="")
+               li
+                  a.link(href="../projects/-spider-solitaire/index.html" target="_blank") Ссылка на игру
+            picture.game-img
+               source(data-srcset="/img/solitiare.webp" type="image/webp" class="lazyload")
+               img(data-src="/min-img/solitiare.png", alt="" class="lazyload")
       script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")         
       script(src="../js/main.min.js")
