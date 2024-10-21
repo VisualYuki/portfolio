@@ -58,7 +58,14 @@
 									</a>
 								</template>
 								<template #content>
-									<PImage preview></PImage>
+									<img
+										src="/images/input-validation-next/1.png"
+										alt=""
+									/>
+									<!-- <PImage
+										preview
+										src="/input-validation-next/1.png"
+									></PImage> -->
 								</template>
 							</PCard>
 						</li>
@@ -77,7 +84,7 @@
 
 <script setup lang="ts">
 import PCard from 'primevue/card'
-import PImage from 'primevue/image'
+//import PImage from 'primevue/image'
 </script>
 
 <style lang="scss" scope>
