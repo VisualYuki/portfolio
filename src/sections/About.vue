@@ -2,7 +2,7 @@
 	<div class="container mb-3">
 		<PCard>
 			<template #title>
-				<h4 class="text-danger">Обо мне</h4>
+				<h3 class="text-danger text-center">Обо мне</h3>
 			</template>
 			<template #subtitle>
 				<h5 class="text-success">
@@ -13,7 +13,6 @@
 				<ul>
 					<li>
 						<span class="fw-bold">Интересны технологии:</span>
-
 						<ul>
 							<li>
 								frontend (vue), графика (canvas, webgl), node (express,
@@ -22,9 +21,9 @@
 						</ul>
 					</li>
 					<li>
-						<span class="fw-bold"
-							>Что ищу в проектах (не обязательно должно быть все):</span
-						>
+						<span class="fw-bold">
+							Что ищу в проектах (не обязательно должно быть все):
+						</span>
 						<ul>
 							<li>Качественные и сложные проекты</li>
 							<li>Свежий стэк разработки (vue3, pinia, ...)</li>
@@ -38,34 +37,32 @@
 						<span class="fw-bold">Ссылки:</span>
 						<ul>
 							<li>
-								<a href="	https://github.com/VisualYuki" target="_blank">
-									github
-								</a>
+								<Link href="https://github.com/VisualYuki">github</Link>
 							</li>
 							<li>
-								<a href="https://t.me/denis_moshkin" target="_blank">
+								<Link href="https://t.me/denis_moshkin">
 									telegram
-								</a>
+								</Link>
 							</li>
-
 							<li>
-								<a
-									href="mailto:denis.moshkin.007@yandex.ru"
-									target="_blank"
-								>
+								<Link href="mailto:denis.moshkin.007@yandex.ru">
 									denis.moshkin.007@yandex.ru
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="tel:+89635508754"> 89635508754 </a>
+								<Link href="tel:+89635508754"> 89635508754 </Link>
 							</li>
 							<li>
-								<a
-									href="https://visualyuki.github.io/portfolio/dist/webp-img/about/university-result.webp"
-									target="_blank"
+								<Link
+									href="/__portfolio/images/about-section/university-result.jpg"
 								>
-									Оценки в университете
-								</a>
+									оценки в университете
+								</Link>
+							</li>
+							<li>
+								<Link href="https://disk.yandex.ru/i/R90ShMP3xcYBJw">
+									мои правила для дизайнера
+								</Link>
 							</li>
 						</ul>
 					</li>
@@ -76,16 +73,8 @@
 </template>
 
 <script lang="ts" setup>
-import PButton from 'primevue/button'
 import PCard from 'primevue/card'
+import Link from '@/components/Link.vue'
 </script>
 
-<style lang="scss">
-.row-title-text {
-	&__title {
-	}
-
-	&__text {
-	}
-}
-</style>
+<style lang="scss"></style>

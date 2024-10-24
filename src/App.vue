@@ -10,4 +10,4 @@ import Projects from './sections/Projects.vue'
 	</div>
 </template>
 
-<style scoped></style>
+<style lang="scss"></style>
