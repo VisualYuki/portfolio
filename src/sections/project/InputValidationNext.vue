@@ -8,7 +8,7 @@
 					href: 'https://jsfiddle.net/VisualYuki/h0ryxqfd/14/',
 				},
 				image: {
-					src: '/__portfolio/images/projects/input-validation-next/1.png',
+					src: '/portfolio/images/projects/input-validation-next/1.png',
 				},
 			},
 			{
@@ -17,7 +17,7 @@
 					href: 'https://visualyuki.github.io/input-validation-next/',
 				},
 				image: {
-					src: '/__portfolio/images/projects/input-validation-next/docs-index.png',
+					src: '/portfolio/images/projects/input-validation-next/docs-index.png',
 				},
 			},
 			{
@@ -26,7 +26,7 @@
 					href: 'https://visualyuki.github.io/input-validation-next/guide',
 				},
 				image: {
-					src: '/__portfolio/images/projects/input-validation-next/docs-page.png',
+					src: '/portfolio/images/projects/input-validation-next/docs-page.png',
 				},
 			},
 		]"

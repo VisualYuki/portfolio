@@ -54,7 +54,7 @@
 							</li>
 							<li>
 								<Link
-									href="/__portfolio/images/about-section/university-result.jpg"
+									href="/portfolio/images/about-section/university-result.jpg"
 								>
 									оценки в университете
 								</Link>

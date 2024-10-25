@@ -8,7 +8,7 @@
 					title: 'Главная страница',
 				},
 				image: {
-					src: '/__portfolio/images/projects/pizza-site/home.png',
+					src: '/portfolio/images/projects/pizza-site/home.png',
 				},
 			},
 			{
@@ -16,7 +16,7 @@
 					title: 'Корзина',
 				},
 				image: {
-					src: '/__portfolio/images/projects/pizza-site/cart.png',
+					src: '/portfolio/images/projects/pizza-site/cart.png',
 				},
 			},
 			{
@@ -24,7 +24,7 @@
 					title: 'Заказы',
 				},
 				image: {
-					src: '/__portfolio/images/projects/pizza-site/order.png',
+					src: '/portfolio/images/projects/pizza-site/order.png',
 				},
 			},
 			{
@@ -32,7 +32,7 @@
 					title: 'Админка с продуктами',
 				},
 				image: {
-					src: '/__portfolio/images/projects/pizza-site/admin-products.png',
+					src: '/portfolio/images/projects/pizza-site/admin-products.png',
 				},
 			},
 			{
@@ -40,7 +40,7 @@
 					title: 'Редактирование продукта',
 				},
 				image: {
-					src: '/__portfolio/images/projects/pizza-site/admin-product-edit.png',
+					src: '/portfolio/images/projects/pizza-site/admin-product-edit.png',
 				},
 			},
 		]"

@@ -8,7 +8,7 @@
 					title: 'Главная страница',
 				},
 				image: {
-					src: '/__portfolio/images/projects/pizza-site/home.png',
+					src: '/portfolio/images/projects/pizza-site/home.png',
 				},
 			},
 		]"
