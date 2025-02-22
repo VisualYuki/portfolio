@@ -36,7 +36,7 @@
 			<li>
 				Почти 100% кода покрыто
 				<Link
-					href="https://github.com/VisualYuki/input-validation-next/blob/main/test/plugin.test.ts"
+					href="https://github.com/VisualYuki/input-validation-next/blob/main/tests/"
 				>
 					тестами
 				</Link>
