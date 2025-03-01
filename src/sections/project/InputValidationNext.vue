@@ -43,6 +43,14 @@
 				(coverage около 95%)
 			</li>
 			<li>
+				Итоговая сборка с помощью Rollup & tsc.
+
+			</li>
+			<li>
+				Пакет выложен на npm.
+				<Link href="https://www.npmjs.com/package/input-validation-next">Ссылка </Link>
+			</li>
+			<li>
 				Присутствует локализация сообщений. (нужно пока самому добавлять)
 			</li>
 			<li>
