@@ -16,6 +16,7 @@
 						<Link
 							v-bind="item.title"
 							class="project-item__item-title d-block text-center mb-4 h6"
+							target="_blank"
 						>
 							{{ item.title.title }}
 						</Link>
