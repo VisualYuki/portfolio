@@ -79,10 +79,18 @@
 			</li>
 			<li>
 				За основу взято:
+
 				<Link href="https://github.com/nuxt/ui"> nuxt/ui </Link>
+
 				&nbsp;
 
 				<Link href="https://github.com/unovue/reka-ui"> reka-ui </Link>
+
+				&nbsp;
+
+				<Link href="https://github.com/element-plus/element-plus">
+					element-plus
+				</Link>
 			</li>
 		</template>
 	</Project>
