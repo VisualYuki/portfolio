@@ -53,6 +53,9 @@
 								<Link href="tel:+89635508754"> 89635508754 </Link>
 							</li>
 							<li>
+								<Link href="https://vk.com/moshkin_denis"> vk </Link>
+							</li>
+							<li>
 								<Link
 									href="/portfolio/images/about-section/university-result.jpg"
 								>

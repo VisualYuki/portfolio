@@ -14,62 +14,65 @@
 			},
 			{
 				title: {
-					title: 'Button',
-					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/button',
+					title: 'Collapse',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/collapse',
 				},
 				image: {
-					src: '/portfolio/images/projects/vue-ui/button.png',
+					src: '/portfolio/images/projects/vue-ui/collapse.png',
 				},
 			},
-			{
-				title: {
-					title: 'Checkbox',
-					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/checkbox',
-				},
-				image: {
-					src: '/portfolio/images/projects/vue-ui/checkbox.png',
-				},
-			},
-			{
-				title: {
-					title: 'Alert',
-					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/alert',
-				},
-				image: {
-					src: '/portfolio/images/projects/vue-ui/alert.png',
-				},
-			},
-			{
-				title: {
-					title: 'Loading directive',
-					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/directives/loading',
-				},
-				image: {
-					src: '/portfolio/images/projects/vue-ui/loading.png',
-				},
-			},
-			{
-				title: {
-					title: 'Skeleton',
-					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/skeleton',
-				},
-				image: {
-					src: '/portfolio/images/projects/vue-ui/skeleton.png',
-				},
-			},
+			// {
+			// 	title: {
+			// 		title: 'Button',
+			// 		href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/button',
+			// 	},
+			// 	image: {
+			// 		src: '/portfolio/images/projects/vue-ui/button.png',
+			// 	},
+			// },
+			// {
+			// 	title: {
+			// 		title: 'Checkbox',
+			// 		href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/checkbox',
+			// 	},
+			// 	image: {
+			// 		src: '/portfolio/images/projects/vue-ui/checkbox.png',
+			// 	},
+			// },
+			// {
+			// 	title: {
+			// 		title: 'Alert',
+			// 		href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/alert',
+			// 	},
+			// 	image: {
+			// 		src: '/portfolio/images/projects/vue-ui/alert.png',
+			// 	},
+			// },
+			// {
+			// 	title: {
+			// 		title: 'Loading directive',
+			// 		href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/directives/loading',
+			// 	},
+			// 	image: {
+			// 		src: '/portfolio/images/projects/vue-ui/loading.png',
+			// 	},
+			// },
+			// {
+			// 	title: {
+			// 		title: 'Skeleton',
+			// 		href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/skeleton',
+			// 	},
+			// 	image: {
+			// 		src: '/portfolio/images/projects/vue-ui/skeleton.png',
+			// 	},
+			// },
 		]"
 	>
 		<template #list>
 			<li>
-				Технологии: vue3, typescript, storybook, vue-utils, vitest,
-				tailwindcss, tailwind-variants, eslint, husky, github ci & cd
-			</li>
-
-			<li>
 				<Link href="https://visualyuki.github.io/sigma-vue">
-					Playground
+					Песочница (playground)
 				</Link>
-				(storybook)
 			</li>
 
 			<li>
@@ -77,21 +80,13 @@
 					Исходники
 				</Link>
 			</li>
+
 			<li>
-				За основу взято:
-
-				<Link href="https://github.com/nuxt/ui"> nuxt/ui </Link>
-
-				&nbsp;
-
-				<Link href="https://github.com/unovue/reka-ui"> reka-ui </Link>
-
-				&nbsp;
-
-				<Link href="https://github.com/element-plus/element-plus">
-					element-plus
-				</Link>
+				Технологии: vue3, vue-utils, vitest, typescript, vitepress,
+				tailwindcss, class-variance-authority, eslint, husky, github ci & cd
 			</li>
+
+			<li>За основу взято: primevue, reka-ui, element-plus</li>
 		</template>
 	</Project>
 </template>
