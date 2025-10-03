@@ -21,6 +21,15 @@
 					src: '/portfolio/images/projects/vue-ui/collapse.png',
 				},
 			},
+			{
+				title: {
+					title: 'Scrollbar',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/scrollbar',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/Scrollbar.png',
+				},
+			},
 			// {
 			// 	title: {
 			// 		title: 'Button',
