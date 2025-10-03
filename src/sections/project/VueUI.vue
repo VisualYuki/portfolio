@@ -27,7 +27,7 @@
 					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/scrollbar',
 				},
 				image: {
-					src: '/portfolio/images/projects/vue-ui/Scrollbar.png',
+					src: '/portfolio/images/projects/vue-ui/scrollbar.png',
 				},
 			},
 			// {
