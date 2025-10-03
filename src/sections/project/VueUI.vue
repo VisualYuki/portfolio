@@ -89,7 +89,9 @@
 	>
 		<template #list>
 			<li>
-				<Link href="https://visualyuki.github.io/sigma-vue">
+				<Link
+					href="https://visualyuki.github.io/sigma-vue/components/accordion.html"
+				>
 					Песочница (playground)
 				</Link>
 			</li>
