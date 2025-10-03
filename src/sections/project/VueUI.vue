@@ -14,6 +14,15 @@
 			},
 			{
 				title: {
+					title: 'Button',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/button',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/button.png',
+				},
+			},
+			{
+				title: {
 					title: 'Collapse',
 					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/collapse',
 				},
@@ -30,6 +39,7 @@
 					src: '/portfolio/images/projects/vue-ui/scrollbar.png',
 				},
 			},
+
 			// {
 			// 	title: {
 			// 		title: 'Button',
