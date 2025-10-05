@@ -39,52 +39,15 @@
 					src: '/portfolio/images/projects/vue-ui/scrollbar.png',
 				},
 			},
-
-			// {
-			// 	title: {
-			// 		title: 'Button',
-			// 		href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/button',
-			// 	},
-			// 	image: {
-			// 		src: '/portfolio/images/projects/vue-ui/button.png',
-			// 	},
-			// },
-			// {
-			// 	title: {
-			// 		title: 'Checkbox',
-			// 		href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/checkbox',
-			// 	},
-			// 	image: {
-			// 		src: '/portfolio/images/projects/vue-ui/checkbox.png',
-			// 	},
-			// },
-			// {
-			// 	title: {
-			// 		title: 'Alert',
-			// 		href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/alert',
-			// 	},
-			// 	image: {
-			// 		src: '/portfolio/images/projects/vue-ui/alert.png',
-			// 	},
-			// },
-			// {
-			// 	title: {
-			// 		title: 'Loading directive',
-			// 		href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/directives/loading',
-			// 	},
-			// 	image: {
-			// 		src: '/portfolio/images/projects/vue-ui/loading.png',
-			// 	},
-			// },
-			// {
-			// 	title: {
-			// 		title: 'Skeleton',
-			// 		href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/skeleton',
-			// 	},
-			// 	image: {
-			// 		src: '/portfolio/images/projects/vue-ui/skeleton.png',
-			// 	},
-			// },
+			{
+				title: {
+					title: 'Checkbox',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/checkbox',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/checkbox.png',
+				},
+			},
 		]"
 	>
 		<template #list>
