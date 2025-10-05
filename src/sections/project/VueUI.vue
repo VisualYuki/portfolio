@@ -23,6 +23,15 @@
 			},
 			{
 				title: {
+					title: 'Checkbox',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/checkbox',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/checkbox.png',
+				},
+			},
+			{
+				title: {
 					title: 'Collapse',
 					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/collapse',
 				},
@@ -37,15 +46,6 @@
 				},
 				image: {
 					src: '/portfolio/images/projects/vue-ui/scrollbar.png',
-				},
-			},
-			{
-				title: {
-					title: 'Checkbox',
-					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/checkbox',
-				},
-				image: {
-					src: '/portfolio/images/projects/vue-ui/checkbox.png',
 				},
 			},
 		]"
