@@ -14,6 +14,15 @@
 			},
 			{
 				title: {
+					title: 'Alert',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/alert',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/alert.png',
+				},
+			},
+			{
+				title: {
 					title: 'Button',
 					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/button',
 				},
