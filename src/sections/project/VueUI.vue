@@ -50,6 +50,15 @@
 			},
 			{
 				title: {
+					title: 'Dialog',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/dialog',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/dialog.png',
+				},
+			},
+			{
+				title: {
 					title: 'Label',
 					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/label',
 				},
