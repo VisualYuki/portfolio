@@ -50,6 +50,15 @@
 			},
 			{
 				title: {
+					title: 'RadioGroup',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/radio-group',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/radio-group.png',
+				},
+			},
+			{
+				title: {
 					title: 'Scrollbar',
 					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/scrollbar',
 				},
