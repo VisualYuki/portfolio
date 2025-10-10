@@ -50,6 +50,15 @@
 			},
 			{
 				title: {
+					title: 'Label',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/label',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/label.png',
+				},
+			},
+			{
+				title: {
 					title: 'RadioGroup',
 					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/radio-group',
 				},
