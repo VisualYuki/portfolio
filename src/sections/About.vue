@@ -5,17 +5,22 @@
 				<h3 class="text-danger text-center">Обо мне</h3>
 			</template>
 			<template #subtitle>
-				<h5 class="text-success">
-					Мошкин Денис - Frontend разработчик (vue3)
-				</h5>
+				<h5 class="text-success">Мошкин Денис</h5>
 			</template>
 			<template #content>
 				<ul>
 					<li>
+						<span class="fw-bold">Компетенции:</span>
+						<ul>
+							<li>Frontend разработчик (vue) (senior)</li>
+							<li>Backend разработчик (node.js, sqlite) (junior)</li>
+						</ul>
+					</li>
+					<li>
 						<span class="fw-bold">Интересны технологии:</span>
 						<ul>
 							<li>
-								frontend (vue), графика (canvas, webgl), node (express,
+								frontend (vue3), графика (canvas, webgl), node (express,
 								next).
 							</li>
 						</ul>
