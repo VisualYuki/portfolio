@@ -80,8 +80,8 @@
 					</ul>
 					<div class="">
 						<img
-							class="w-100 object-cover object-center h-100 rounded-xl"
-							src="/portfolio/images/photo.jpg"
+							class="w-100 object-cover object-center h-100 rounded-lg"
+							:src="photoUrl"
 							alt="photo"
 						/>
 					</div>
@@ -94,6 +94,8 @@
 <script lang="ts" setup>
 import PCard from 'primevue/card'
 import Link from '@/components/Link.vue'
+
+const photoUrl = '/portfolio/images/photo.jpg'
 </script>
 
 <style lang="scss"></style>
