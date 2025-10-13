@@ -51,7 +51,7 @@
 			{
 				title: {
 					title: 'ContextMenu',
-					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/context-menu',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/contextmenu',
 				},
 				image: {
 					src: '/portfolio/images/projects/vue-ui/context-menu.png',
