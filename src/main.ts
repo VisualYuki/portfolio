@@ -1,5 +1,5 @@
-import './assets/main.scss'
-import 'bootstrap/dist/css/bootstrap.css'
+import './assets/main.css'
+//import 'bootstrap/dist/css/bootstrap.css'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 //import Button from 'primevue/button'

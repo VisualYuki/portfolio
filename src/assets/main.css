@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+@layer base {
+	a {
+		@apply text-blue-600 underline hover:text-blue-800 transition-colors;
+	}
+}
+
+ul {
+	@apply list-decimal list-inside ps-4;
+}
+
+ul ul {
+	@apply list-disc;
+}
+
+body {
+	@apply bg-gray-50;
+	font-family:
+		Inter,
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		'Fira Sans',
+		'Droid Sans',
+		'Helvetica Neue',
+		sans-serif;
+}
+
+a {
+	text-underline-position: under;
+}

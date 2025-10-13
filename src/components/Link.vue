@@ -5,18 +5,14 @@
 </template>
 
 <script lang="ts" setup>
-import type { PropType } from 'vue'
-
-const props = defineProps({
-	target: {
-		type: String as PropType<'_self' | '_blank'>,
-		default: 'blank',
+const props = withDefaults(
+	defineProps<{
+		target?: '_self' | '_blank'
+	}>(),
+	{
+		target: '_blank',
 	},
-})
+)
 </script>
 
-<style lang="scss" scoped>
-a {
-	text-underline-position: under;
-}
-</style>
+<style lang="scss" scoped></style>

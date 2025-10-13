@@ -1,16 +1,14 @@
 <template>
-	<div class="container">
-		<PCard>
-			<template #title>
-				<h3 class="text-danger text-center">Проекты</h3>
-			</template>
-			<template #content>
-				<VueUI></VueUI>
-				<InputValidationNext></InputValidationNext>
-				<PizzaSite></PizzaSite>
-			</template>
-		</PCard>
-	</div>
+	<PCard>
+		<template #title>
+			<h3 class="text-red-500 text-center text-2xl">Проекты</h3>
+		</template>
+		<template #content>
+			<VueUI></VueUI>
+			<InputValidationNext></InputValidationNext>
+			<PizzaSite></PizzaSite>
+		</template>
+	</PCard>
 </template>
 
 <script setup lang="ts">

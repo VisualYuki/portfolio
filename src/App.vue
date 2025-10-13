@@ -4,7 +4,7 @@ import Projects from './sections/Projects.vue'
 </script>
 
 <template>
-	<div class="pt-4">
+	<div class="pt-4 container mx-auto text-base text-black min-h-screen">
 		<About></About>
 		<Projects></Projects>
 	</div>
