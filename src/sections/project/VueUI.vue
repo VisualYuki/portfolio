@@ -93,6 +93,15 @@
 					src: '/portfolio/images/projects/vue-ui/scrollbar.png',
 				},
 			},
+			{
+				title: {
+					title: 'Skeleton',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/skeleton',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/skeleton.png',
+				},
+			},
 		]"
 	>
 		<template #list>
