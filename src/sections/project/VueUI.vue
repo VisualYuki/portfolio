@@ -59,6 +59,42 @@
 			},
 			{
 				title: {
+					title: 'DatePicker (date)',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/date-picker',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/date-picker/date.png',
+				},
+			},
+			{
+				title: {
+					title: 'DatePicker (time)',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/date-picker',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/date-picker/time.png',
+				},
+			},
+			{
+				title: {
+					title: 'DatePicker (date-time)',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/date-picker',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/date-picker/date-time.png',
+				},
+			},
+			{
+				title: {
+					title: 'DatePicker (range-date)',
+					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/date-picker',
+				},
+				image: {
+					src: '/portfolio/images/projects/vue-ui/date-picker/range-date.png',
+				},
+			},
+			{
+				title: {
 					title: 'Dialog',
 					href: 'https://github.com/VisualYuki/sigma-vue/tree/main/src/components/dialog',
 				},
