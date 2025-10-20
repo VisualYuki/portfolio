@@ -156,6 +156,11 @@
 			</li>
 
 			<li>
+				Большая часть компонентов покрыта тестами на vitest &
+				vue-test-utils.
+			</li>
+
+			<li>
 				Технологии: vue3, vue-utils, vitest, typescript, vitepress,
 				tailwindcss, class-variance-authority, eslint, husky, github ci & cd
 			</li>
