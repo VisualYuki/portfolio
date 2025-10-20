@@ -43,9 +43,9 @@
 							<span class="font-bold">Ссылки:</span>
 							<ul class="">
 								<li>
-									<Link href="https://github.com/VisualYuki"
-										>github</Link
-									>
+									<Link href="https://github.com/VisualYuki">
+										github
+									</Link>
 								</li>
 								<li>
 									<Link href="https://t.me/denis_moshkin">
@@ -70,11 +70,11 @@
 										оценки в университете
 									</Link>
 								</li>
-								<li>
+								<!-- <li>
 									<Link href="https://disk.yandex.ru/i/R90ShMP3xcYBJw">
 										мои правила для дизайнера
 									</Link>
-								</li>
+								</li> -->
 							</ul>
 						</li>
 					</ul>
