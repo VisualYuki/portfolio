@@ -13,8 +13,10 @@
 						<li>
 							<span class="font-bold">Компетенции:</span>
 							<ul class="">
-								<li>Frontend разработчик (vue) (senior)</li>
-								<li>Backend разработчик (node.js, sqlite) (junior)</li>
+								<li>Frontend разработчик (js, vue) (senior)</li>
+								<li>
+									Backend разработчик (node, express, sqlite) (junior)
+								</li>
 							</ul>
 						</li>
 						<li>
@@ -22,23 +24,11 @@
 							<ul class="">
 								<li>
 									frontend (vue3), графика (canvas, webgl), node
-									(express, next).
+									(express, sqlite).
 								</li>
 							</ul>
 						</li>
-						<!-- <li>
-						<span class="font-bold">
-							Что ищу в проектах (не обязательно должно быть все):
-						</span>
-						<ul>
-							<li>Качественные и сложные проекты</li>
-							<li>Свежий стэк разработки (vue3, pinia, ...)</li>
-							<li>Описание api запросов (swagger, ...)</li>
-							<li>Код ревью кода, который уходит на prod</li>
-							<li>Наличие документации по проекту.</li>
-							<li>Frontend должен быть отделен от backend'а</li>
-						</ul>
-					</li> -->
+
 						<li>
 							<span class="font-bold">Ссылки:</span>
 							<ul class="">
@@ -70,11 +60,6 @@
 										оценки в университете
 									</Link>
 								</li>
-								<!-- <li>
-									<Link href="https://disk.yandex.ru/i/R90ShMP3xcYBJw">
-										мои правила для дизайнера
-									</Link>
-								</li> -->
 							</ul>
 						</li>
 					</ul>
